@@ -1,0 +1,39 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-color: black;
+  background-size: cover;
+  height: 100vh;
+}
+.heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 32px;
+  text-align: center;
+}
+.super-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .image {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+  }
+  .image {
+    height: 300px;
+    width: 300px;
+  }
+}
